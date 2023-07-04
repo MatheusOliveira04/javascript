@@ -1,0 +1,29 @@
+.format-center{
+    text-align: center;
+}
+
+.input-format{
+    border-radius: 10px;
+    border-color: black;
+    height: 25px;
+    width: 35%;
+}
+
+p{
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+button{
+    background-color: green;
+    color: black;
+    width: 150px;
+    height: 40px;
+    margin: 20px;
+    border-radius: 20px;  
+    border-style: solid;
+    box-shadow: 1px 10px 10px black;
+    border-color: black;
+    border-width: 3px;
+    font-size: 20px;
+}

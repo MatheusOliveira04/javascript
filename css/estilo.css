@@ -1,0 +1,27 @@
+p{
+    color: red;
+    font-size: "18px";
+}
+
+.destaque{
+    font-weight: bold;
+    background-color: black;
+    color:yellow;
+    font-style: italic;
+}
+
+.caixa{
+    width: 200px;
+    height: 200px;
+    border: black 5px solid;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.caixaArredondada{
+    border-radius: 20%;
+}
+
+.caixaAmarela{
+    background-color: yellow;
+}
