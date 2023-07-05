@@ -1,33 +1,44 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="js/cadastro2-js.js"></script>
+    <link rel="stylesheet" href="css/cadastro2.css">
 </head>
+
 <body>
-    
-    <form action="#" method="get" onsubmit="return formularioIMC()">
+    <div class="center">
+        <form action="#" method="get" onsubmit="return formularioIMC()">
 
-        <label for="txtNome">Nome</label>
-        <input type="text" id="txtNome" name="txtNome">
-        <br/>
+            <div class="distance">
+                <label for="txtNome">Nome</label>
+                <input type="text" id="txtNome" name="txtNome">
+                <br />
+            </div>
 
-        <label for="Sexo">Sexo</label>
-        <input type="radio" name="txtSexo" value="Masculino"> Masculino
-        <input type="radio" name="txtSexo" value="Feminino"> Femino
-        <br/>
+            <div class="distance">
+            <label for="Sexo">Sexo</label>
+            <input type="radio" name="txtSexo" value="Masculino"> Masculino
+            <input type="radio" name="txtSexo" value="Feminino"> Femino
+            <br/>
+            </div>
 
-        <label for="txtPeso">Peso</label>
-        <input type="number" id="txtPeso" name="txtPeso">
-        <label for="txtAltura">Altura</label>
-        <input type="number" id="txtAltura" name="txtAltura">
-        <br/>
+            <div class="distance">
+                <label for="txtPeso">Peso(Kg)</label>
+                <input type="number" id="txtPeso" name="txtPeso"> 
+            <label for="txtAltura">Altura(metros)</label>
+            <input type="number" id="txtAltura" name="txtAltura">
+            <br/>
+            </div>
 
-        <button>Avaliar</button>
+            <button>Avaliar</button>
 
-        <textarea readonly="true" name="txtDados" id="txtDados" cols="30" rows="10"></textarea>
-    </form>
+            <textarea readonly="true" name="txtDados" id="txtDados" cols="30" rows="10"></textarea>
+        </form>
+    </div>
 </body>
+
 </html>
